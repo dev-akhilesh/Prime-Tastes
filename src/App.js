@@ -8,9 +8,13 @@ import Category from './components/Category'
 function App() {
   return (
     <div>
-      <h1>hello</h1>
+      <Navbar />
+      <Hero />
+      <HeadlineCards />
+      <Food />
+      <Category />
     </div>
-  );
+  ); 
 }
 
 export default App;
